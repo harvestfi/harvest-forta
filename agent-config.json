@@ -1,0 +1,33 @@
+{
+  "developerAbbreviation": "CHAD",
+  "protocolName": "Harvest",
+  "protocolAbbreviation": "FARM",
+  "contracts": {
+    "Controller": {
+      "address": "0x3cC47874dC50D98425ec79e647d83495637C55e3",
+      "abiFile": "controller-abi.json",
+      "functions": {
+        "addHardWorker": {
+          "type": "Info",
+          "severity": "Critical",
+          "expression": ""
+        },
+        "addCodeToWhitelist": {
+          "type": "Info",
+          "severity": "Critical",
+          "expression": null
+        },
+        "addMultipleToWhitelist": {
+          "type": "Info",
+          "severity": "Critical",
+          "expression": null
+        },
+        "addToWhitelist": {
+          "type": "Info",
+          "severity": "Critical",
+          "expression": null
+        }
+      }
+    }
+  }
+}
